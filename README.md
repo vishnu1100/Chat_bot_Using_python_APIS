@@ -40,7 +40,7 @@ Copy code
 Response:
 If a matching question is found:
 json
-Copy code
+Copy codef
 {
   "answer": "Python is a programming language.",
   "similarity": 0.85
@@ -79,7 +79,7 @@ Clone the repository:
 
 bash
 Copy code
-git clone https://github.com/yourusername/chat-bot-using-python-apis.git
+git clone [https://github.com/vishnu1100/Chat_bot_Using_python_APIS.git](https://github.com/vishnu1100/Chat_bot_Using_python_APIS.git)
 cd chat-bot-using-python-apis
 Install the required dependencies:
 
@@ -156,7 +156,7 @@ This project is licensed under the MIT License. Feel free to use and modify it.
 Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
 
 📧 Contact
-For questions or feedback, please reach out to your-email@example.com.
+For questions or feedback, please reach out to vishnusanthoshvr@gmail.com.com.
 
 Thank you for using the Chatbot API! 🚀😊
 
