@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chatbot</title>
+    <script>
+        async function askQuestion() {
+            const question = document.getElementById("question").value;
+            const response = await fetch("http://localhost:5000/ask", {
+                method: "POST",
+                mode:'cors',
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({ question })
+            });
+            const data = await response.json();
+            document.getElementById("response").innerText = data.answer;
+        }
+    </script>
+</head>
+<body>
+    <h1>Chatbot</h1>
+    <input type="text" id="question" placeholder="Ask a question" />
+    <button onclick="askQuestion()">Ask</button>
+    <p id="response"></p>
+</body>
+</html>

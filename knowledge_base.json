@@ -1,0 +1,32 @@
+{
+  "questions": [
+    {
+      "question": "Hi",
+      "answer": "hello"
+    },
+    {
+      "question": "did you know hi",
+      "answer": "hi"
+    },
+    {
+      "question": "not hi",
+      "answer": "ok"
+    },
+    {
+      "question": "know",
+      "answer": "pip install sentence-transformers"
+    },
+    {
+      "question": "pip install sentence-transformers",
+      "answer": "pip install sentence-transformers"
+    },
+    {
+      "question": "did you know vishnu",
+      "answer": "Vishnu is a software developer "
+    },
+    {
+      "question": "ok",
+      "answer": "Fine"
+    }
+  ]
+}
