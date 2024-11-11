@@ -88,7 +88,7 @@ def learn_question():
 # A simple route to check if the API is running
 @app.route('/', methods=['GET'])
 def home():
-    return "1!!!! Its Working broooo !!!!!!!!"
+    return "!!!!! Its Working broooo !!!!!!!!"
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
